@@ -48,7 +48,7 @@ VaultGen utilizes a "Mandatory Seed" algorithm to ensure security requirements a
 
 ```bash
 CipherForge/
-├── main.py              # The core application logic
+├── code.py              # The core application logic
 ├── .gitignore           # Keeps your repo clean of junk files
 └── README.md            # You are here!
 ```
