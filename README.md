@@ -37,7 +37,7 @@ Run the script directly from your terminal:
 ```
 
 ## 🛠️ Technical Breakdown
-CipherForge utilizes a "Mandatory Seed" algorithm to ensure security requirements are met before filling the remaining length with random noise.
+VaultGen utilizes a "Mandatory Seed" algorithm to ensure security requirements are met before filling the remaining length with random noise.
 
 1. **Pool Construction**: Dynamically builds a character set based on user flags.
 2. **Mandatory Seeding**: Specifically selects one of each required type to guarantee complexity.
@@ -49,7 +49,6 @@ CipherForge utilizes a "Mandatory Seed" algorithm to ensure security requirement
 ```bash
 CipherForge/
 ├── main.py              # The core application logic
-├── requirements.txt     # List of dependencies (Standard Library)
 ├── .gitignore           # Keeps your repo clean of junk files
 └── README.md            # You are here!
 ```
